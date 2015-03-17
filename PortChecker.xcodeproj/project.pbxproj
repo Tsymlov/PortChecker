@@ -12,6 +12,11 @@
 		3DF84B601AB85AD000BAC634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF84B5F1AB85AD000BAC634 /* Images.xcassets */; };
 		3DF84B631AB85AD000BAC634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF84B611AB85AD000BAC634 /* Main.storyboard */; };
 		3DF84B6F1AB85AD000BAC634 /* PortCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B6E1AB85AD000BAC634 /* PortCheckerTests.swift */; };
+		3DF84B7F1AB85C9300BAC634 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B7A1AB85C9300BAC634 /* ysocket.swift */; };
+		3DF84B801AB85C9300BAC634 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B7B1AB85C9300BAC634 /* ytcpsocket.c */; };
+		3DF84B811AB85C9300BAC634 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B7C1AB85C9300BAC634 /* ytcpsocket.swift */; };
+		3DF84B821AB85C9300BAC634 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B7D1AB85C9300BAC634 /* yudpsocket.c */; };
+		3DF84B831AB85C9300BAC634 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B7E1AB85C9300BAC634 /* yudpsocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 		3DF84B681AB85AD000BAC634 /* PortCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF84B6D1AB85AD000BAC634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DF84B6E1AB85AD000BAC634 /* PortCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortCheckerTests.swift; sourceTree = "<group>"; };
+		3DF84B791AB85C9200BAC634 /* PortChecker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PortChecker-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DF84B7A1AB85C9300BAC634 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		3DF84B7B1AB85C9300BAC634 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		3DF84B7C1AB85C9300BAC634 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		3DF84B7D1AB85C9300BAC634 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		3DF84B7E1AB85C9300BAC634 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +86,7 @@
 		3DF84B581AB85AD000BAC634 /* PortChecker */ = {
 			isa = PBXGroup;
 			children = (
+				3DF84B781AB85C6F00BAC634 /* SwiftSocket */,
 				3DF84B5B1AB85AD000BAC634 /* AppDelegate.swift */,
 				3DF84B5D1AB85AD000BAC634 /* ViewController.swift */,
 				3DF84B5F1AB85AD000BAC634 /* Images.xcassets */,
@@ -87,6 +99,7 @@
 		3DF84B591AB85AD000BAC634 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3DF84B791AB85C9200BAC634 /* PortChecker-Bridging-Header.h */,
 				3DF84B5A1AB85AD000BAC634 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +120,18 @@
 				3DF84B6D1AB85AD000BAC634 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DF84B781AB85C6F00BAC634 /* SwiftSocket */ = {
+			isa = PBXGroup;
+			children = (
+				3DF84B7A1AB85C9300BAC634 /* ysocket.swift */,
+				3DF84B7B1AB85C9300BAC634 /* ytcpsocket.c */,
+				3DF84B7C1AB85C9300BAC634 /* ytcpsocket.swift */,
+				3DF84B7D1AB85C9300BAC634 /* yudpsocket.c */,
+				3DF84B7E1AB85C9300BAC634 /* yudpsocket.swift */,
+			);
+			name = SwiftSocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF84B7F1AB85C9300BAC634 /* ysocket.swift in Sources */,
 				3DF84B5E1AB85AD000BAC634 /* ViewController.swift in Sources */,
+				3DF84B821AB85C9300BAC634 /* yudpsocket.c in Sources */,
+				3DF84B801AB85C9300BAC634 /* ytcpsocket.c in Sources */,
 				3DF84B5C1AB85AD000BAC634 /* AppDelegate.swift in Sources */,
+				3DF84B811AB85C9300BAC634 /* ytcpsocket.swift in Sources */,
+				3DF84B831AB85C9300BAC634 /* yudpsocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,10 +354,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PortChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PortChecker/PortChecker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -335,10 +368,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PortChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PortChecker/PortChecker-Bridging-Header.h";
 			};
 			name = Release;
 		};
