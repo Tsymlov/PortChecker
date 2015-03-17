@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF84B5C1AB85AD000BAC634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B5B1AB85AD000BAC634 /* AppDelegate.swift */; };
+		3DF84B5E1AB85AD000BAC634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B5D1AB85AD000BAC634 /* ViewController.swift */; };
+		3DF84B601AB85AD000BAC634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF84B5F1AB85AD000BAC634 /* Images.xcassets */; };
+		3DF84B631AB85AD000BAC634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF84B611AB85AD000BAC634 /* Main.storyboard */; };
+		3DF84B6F1AB85AD000BAC634 /* PortCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF84B6E1AB85AD000BAC634 /* PortCheckerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF84B691AB85AD000BAC634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF84B4E1AB85AD000BAC634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF84B551AB85AD000BAC634;
+			remoteInfo = PortChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DF84B561AB85AD000BAC634 /* PortChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF84B5A1AB85AD000BAC634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF84B5B1AB85AD000BAC634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DF84B5D1AB85AD000BAC634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DF84B5F1AB85AD000BAC634 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DF84B621AB85AD000BAC634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DF84B681AB85AD000BAC634 /* PortCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF84B6D1AB85AD000BAC634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF84B6E1AB85AD000BAC634 /* PortCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortCheckerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF84B531AB85AD000BAC634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF84B651AB85AD000BAC634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF84B4D1AB85AD000BAC634 = {
+			isa = PBXGroup;
+			children = (
+				3DF84B581AB85AD000BAC634 /* PortChecker */,
+				3DF84B6B1AB85AD000BAC634 /* PortCheckerTests */,
+				3DF84B571AB85AD000BAC634 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF84B571AB85AD000BAC634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF84B561AB85AD000BAC634 /* PortChecker.app */,
+				3DF84B681AB85AD000BAC634 /* PortCheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF84B581AB85AD000BAC634 /* PortChecker */ = {
+			isa = PBXGroup;
+			children = (
+				3DF84B5B1AB85AD000BAC634 /* AppDelegate.swift */,
+				3DF84B5D1AB85AD000BAC634 /* ViewController.swift */,
+				3DF84B5F1AB85AD000BAC634 /* Images.xcassets */,
+				3DF84B611AB85AD000BAC634 /* Main.storyboard */,
+				3DF84B591AB85AD000BAC634 /* Supporting Files */,
+			);
+			path = PortChecker;
+			sourceTree = "<group>";
+		};
+		3DF84B591AB85AD000BAC634 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF84B5A1AB85AD000BAC634 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DF84B6B1AB85AD000BAC634 /* PortCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF84B6E1AB85AD000BAC634 /* PortCheckerTests.swift */,
+				3DF84B6C1AB85AD000BAC634 /* Supporting Files */,
+			);
+			path = PortCheckerTests;
+			sourceTree = "<group>";
+		};
+		3DF84B6C1AB85AD000BAC634 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF84B6D1AB85AD000BAC634 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF84B551AB85AD000BAC634 /* PortChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF84B721AB85AD000BAC634 /* Build configuration list for PBXNativeTarget "PortChecker" */;
+			buildPhases = (
+				3DF84B521AB85AD000BAC634 /* Sources */,
+				3DF84B531AB85AD000BAC634 /* Frameworks */,
+				3DF84B541AB85AD000BAC634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortChecker;
+			productName = PortChecker;
+			productReference = 3DF84B561AB85AD000BAC634 /* PortChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF84B671AB85AD000BAC634 /* PortCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF84B751AB85AD000BAC634 /* Build configuration list for PBXNativeTarget "PortCheckerTests" */;
+			buildPhases = (
+				3DF84B641AB85AD000BAC634 /* Sources */,
+				3DF84B651AB85AD000BAC634 /* Frameworks */,
+				3DF84B661AB85AD000BAC634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF84B6A1AB85AD000BAC634 /* PBXTargetDependency */,
+			);
+			name = PortCheckerTests;
+			productName = PortCheckerTests;
+			productReference = 3DF84B681AB85AD000BAC634 /* PortCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF84B4E1AB85AD000BAC634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Alexey Tsymlov";
+				TargetAttributes = {
+					3DF84B551AB85AD000BAC634 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3DF84B671AB85AD000BAC634 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3DF84B551AB85AD000BAC634;
+					};
+				};
+			};
+			buildConfigurationList = 3DF84B511AB85AD000BAC634 /* Build configuration list for PBXProject "PortChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF84B4D1AB85AD000BAC634;
+			productRefGroup = 3DF84B571AB85AD000BAC634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF84B551AB85AD000BAC634 /* PortChecker */,
+				3DF84B671AB85AD000BAC634 /* PortCheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF84B541AB85AD000BAC634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF84B601AB85AD000BAC634 /* Images.xcassets in Resources */,
+				3DF84B631AB85AD000BAC634 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF84B661AB85AD000BAC634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF84B521AB85AD000BAC634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF84B5E1AB85AD000BAC634 /* ViewController.swift in Sources */,
+				3DF84B5C1AB85AD000BAC634 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF84B641AB85AD000BAC634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF84B6F1AB85AD000BAC634 /* PortCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF84B6A1AB85AD000BAC634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF84B551AB85AD000BAC634 /* PortChecker */;
+			targetProxy = 3DF84B691AB85AD000BAC634 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DF84B611AB85AD000BAC634 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF84B621AB85AD000BAC634 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF84B701AB85AD000BAC634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DF84B711AB85AD000BAC634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3DF84B731AB85AD000BAC634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PortChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DF84B741AB85AD000BAC634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PortChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DF84B761AB85AD000BAC634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PortCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortChecker.app/Contents/MacOS/PortChecker";
+			};
+			name = Debug;
+		};
+		3DF84B771AB85AD000BAC634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PortCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortChecker.app/Contents/MacOS/PortChecker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF84B511AB85AD000BAC634 /* Build configuration list for PBXProject "PortChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF84B701AB85AD000BAC634 /* Debug */,
+				3DF84B711AB85AD000BAC634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF84B721AB85AD000BAC634 /* Build configuration list for PBXNativeTarget "PortChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF84B731AB85AD000BAC634 /* Debug */,
+				3DF84B741AB85AD000BAC634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DF84B751AB85AD000BAC634 /* Build configuration list for PBXNativeTarget "PortCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF84B761AB85AD000BAC634 /* Debug */,
+				3DF84B771AB85AD000BAC634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF84B4E1AB85AD000BAC634 /* Project object */;
+}
