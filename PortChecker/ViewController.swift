@@ -12,17 +12,16 @@ class ViewController: NSViewController {
 
     @IBOutlet weak var host: NSTextField!
     @IBOutlet weak var port: NSTextField!
-    @IBOutlet weak var log: NSTextField!
+    @IBOutlet var log: NSTextView!
 
     @IBAction func check(sender: NSButton) {
         let addr = self.host.stringValue
         let port = Int(self.port.intValue)
         let success = checkHost(addr: addr, port: port)
         if success {
-//            log.setStringValue(log.stringValue() + "Ok"
-            println("Connection to \(addr):\(port) - ok")
+            log("Connection to \(addr):\(port) - ok")
         } else {
-            println("Connection to \(addr):\(port) - failure")
+            log("Connection to \(addr):\(port) - failure")
         }
     }
     
@@ -30,10 +29,14 @@ class ViewController: NSViewController {
         var result: Bool
         var client = TCPClient(addr: addr, port: port)
         var (success, connectingResult) = client.connect(timeout: 1)
-        println(connectingResult)
+        log(connectingResult)
         var (_, closingResult) = client.close()
-        println(closingResult)
+        log(closingResult)
         return success
+    }
+    
+    func log(text: String){
+        log.string = ( log.string ?? "") + "\n" + text
     }
 
 }
